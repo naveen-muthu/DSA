@@ -7,11 +7,7 @@ class Solution {
             rev=rev*10+dig;
             x=x/10;
         }
-        if(k==rev){
-            return true;
-        }
-        else{
-            return false;
+        return rev==k;
         }
     }
-}
+
